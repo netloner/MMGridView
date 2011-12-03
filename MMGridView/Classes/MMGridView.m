@@ -184,6 +184,7 @@
 - (void)reloadData
 {
     [self setNeedsDisplay];
+    [self updateCurrentPageIndex];
 }
 
 
